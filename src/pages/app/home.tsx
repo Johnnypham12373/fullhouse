@@ -25,10 +25,10 @@ const login: NextPage = () => {
     <p> *Ok with friends over if notified </p>
     <p> *McCoy Suite </p>
     <div className="card-actions justify-end">
-    <Link href="/index">
+    <Link href="">
       <button className="btn btn-sm btn-active btn-ghost">Next</button>
     </Link>
-    <Link href="app/preferences">
+    <Link href="preferences">
       <button className="btn btn-sm btn-active btn-ghost">Match!</button>
     </Link>
     </div>

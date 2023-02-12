@@ -12,7 +12,7 @@ export const labRouter = createTRPCRouter({
     }),
 
   getAll: publicProcedure.query(({ ctx }) => {
-    return ctx.prisma.labs.findMany();
+    return ctx.prisma.lab.findMany();
   }),
 
   getSecretMessage: protectedProcedure.query(() => {

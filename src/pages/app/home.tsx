@@ -11,6 +11,7 @@ const login: NextPage = () => {
   return (
     <>
       <main className="">
+        int click = 0;
       <div className="card w-96 bg-base-100 shadow-xl">
   <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div className="card-body">

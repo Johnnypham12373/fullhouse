@@ -11,9 +11,20 @@ const login: NextPage = () => {
   return (
     <>
       <main className="">
-      
-      <textarea className="textarea w-96 h-32" placeholder="Housing type"></textarea>
+    
       <div></div>
+      <div className = "text=5xl"> </div>
+      <div className="Housing">
+    <label tabIndex={0} className="btn m-1">Click</label>
+    <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+    <li><a>AMR 1 (Communal)</a></li>
+    <li><a>AMR 2 (Communal)</a></li>
+    <li><a>AMR 3A/3B (Suite)</a></li>
+    <li><a>Wolman Hall (Suite)</a></li>
+    <li><a>McCoy Hall (Suite)</a></li>
+    
+    </ul>
+    </div>
       <textarea className="textarea w-96 h-32" placeholder="Sleep Schedule"></textarea>
       <div></div>
       <textarea className="textarea w-96 h-32" placeholder="Cleanliness"></textarea>

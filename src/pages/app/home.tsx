@@ -12,6 +12,7 @@ const login: NextPage = () => {
     <>
       <main className="">
       <div className=""></div>
+      <div className=""></div>
       <div className="card h-200 w-96 bg-base-100 shadow-xl">
   <figure><img src="https://images.squarespace-cdn.com/content/v1/58c846642994ca3a008a6034/1559576853555-MFC8ONFCO2TNY5W6XISB/nile-scott-shots-boston-headshot-photography-portrait-12-of-12_1_orig.jpg?format=500w" alt= "Eric" /></figure>
   <div className="card-body">
@@ -24,8 +25,12 @@ const login: NextPage = () => {
     <p> *Ok with friends over if notified </p>
     <p> *McCoy Suite </p>
     <div className="card-actions justify-end">
-    <button className="btn btn-primary">Next</button>
-    <button className="btn btn-primary">Match!</button>
+    <Link href="/index">
+      <button className="btn btn-sm btn-active btn-ghost">Next</button>
+    </Link>
+    <Link href="app/preferences">
+      <button className="btn btn-sm btn-active btn-ghost">Match!</button>
+    </Link>
     </div>
   </div>
 </div>

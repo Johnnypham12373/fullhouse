@@ -8,7 +8,7 @@ const createacc: NextPage = () => {
     return (
       <>
        <div>
-        <div class="form-control bg-white-1000">
+        <div class="form-control bg-white-500">
         <div className="text-center lg:text-left">
         <p className="py-6"></p>
         <h1 className="text-5xl font-bold">Create Account</h1>
@@ -35,22 +35,19 @@ const createacc: NextPage = () => {
         <span className="label-text">Major</span>
         </label>
         <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+        <label className="label mt-5">
+        <span className="label-text">Gender</span>
+        </label>
+        <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
         </div>  
 
-        <div className="dropdown mt-5 ml-5">
-        <label tabIndex={0} className="btn m-1">Gender</label>
-        <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a>Man</a></li>
-            <li><a>Woman</a></li>
-            <li><a>Non-Binary</a></li>
-            <li><a>Other</a></li>
-        </ul>
-        </div>
         </div>
 
+        <div className="bg-100 pl-10 pr-20">
         <Link href = "home" className="form-control mt-6 flex flex-col">
-        <button className="btn bg-blue">Create Account</button>
+        <button className="btn btn-outline btn-sm">Create Account</button>
        </Link>
+       </div>
       </div>
 
   

@@ -38,14 +38,17 @@ const Home: NextPage = () => {
             <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
           </label>
         </div>
-        <div className="form-control mt-6">
-          <button className="btn bg-blue">Login</button>
-        </div>
+        <Link href = "app/home" className="form-control mt-6">
+        <button className="btn bg-blue">Login</button>
+      </Link>
       </div>
     </div>
     <div className="flex "> </div>
-    <button className="btn btn-sm btn-active btn-ghost">Create an Account</button>
-    <button className="btn btn-sm btn-active btn-ghost">Log in withg JHED</button>
+    
+    <Link href="app/createacc">
+      <button className="btn btn-sm btn-active btn-ghost">Create an Account</button>
+    </Link>
+
   </div>
 </div>
 

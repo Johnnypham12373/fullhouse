@@ -23,7 +23,8 @@ const login: NextPage = () => {
     <option>2</option>
     <option>3</option>
     </select>
-
+    <button className="btn">Back</button>
+    <button className="btn">Submit</button>
       </main>
     </>
   );

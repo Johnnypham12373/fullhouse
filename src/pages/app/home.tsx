@@ -11,15 +11,21 @@ const login: NextPage = () => {
   return (
     <>
       <main className="">
+      <div></div>
       <div className="card h-200 w-96 bg-base-100 shadow-xl">
-  <figure><img src="/images/Adam.jpg" /></figure>
+  <figure><img src="Adam.jpg" alt= "Eric" /></figure>
   <div className="card-body">
-    <h2 className="card-title">Eric</h2>
+    <h2 className="card-title">Eric Chiddleton</h2>
     <p> University: JHU</p>
     <p> Grade: Freshman</p>
+
+    <p> Preferences: </p>
+    <p> *Quiet Time at 11 PM </p>
+    <p> *Ok with friends over if notified </p>
+    <p> *McCoy Suite </p>
     <div className="card-actions justify-end">
-    <button className="btn btn-primary">Match!</button>
     <button className="btn btn-primary">Next</button>
+    <button className="btn btn-primary">Match!</button>
     </div>
   </div>
 </div>

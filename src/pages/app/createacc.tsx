@@ -36,17 +36,19 @@ const createacc: NextPage = () => {
         </label>
         <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
         </div>  
-        <div className="dropdown">
-            <label tabIndex={0} className="btn m-1">Click</label>
-            <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a>Item 1</a></li>
-                <li><a>Item 2</a></li>
-            </ul>
-            </div>
+
+        <div className="dropdown mt-5 ml-5">
+        <label tabIndex={0} className="btn m-1">Gender</label>
+        <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Man</a></li>
+            <li><a>Woman</a></li>
+            <li><a>Non-Binary</a></li>
+            <li><a>Other</a></li>
+        </ul>
+        </div>
         </div>
 
-
-        <Link href = "app/home" className="form-control mt-6">
+        <Link href = "home" className="form-control mt-6 flex flex-col">
         <button className="btn bg-blue">Create Account</button>
        </Link>
       </div>

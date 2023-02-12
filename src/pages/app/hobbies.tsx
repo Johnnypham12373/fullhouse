@@ -21,7 +21,10 @@ const login: NextPage = () => {
       <textarea placeholder="Anything about me!" className="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
       <div></div>
       
-      <button className="btn btn-primary">Home</button>
+      <button className="btn btn-primary">Back</button>
+      <button className="btn btn-primary">Pet Peeves</button>
+      
+
       </main>
     </>
   );

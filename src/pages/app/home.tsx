@@ -16,9 +16,10 @@ const login: NextPage = () => {
   <div className="card-body">
     <h2 className="card-title">Eric</h2>
     <p> University: JHU</p>
-    <p> Grade: 11</p>
+    <p> Grade: Freshman</p>
     <div className="card-actions justify-end">
       <button className="btn btn-primary">Match!</button>
+      <a href = "index"> Next </a>
     </div>
   </div>
 </div>

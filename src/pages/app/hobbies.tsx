@@ -21,10 +21,10 @@ const login: NextPage = () => {
       <textarea placeholder="Anything about me!" className="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
       <div></div>
       
-      <Link href = "preferences" className="form-control mt-6">
+      <Link href = "/preferences" className="form-control mt-6">
         <button className="btn btn-sm">Back</button>
       </Link>
-      <Link href = "preferences" className="form-control mt-6">
+      <Link href = "/preferences" className="form-control mt-6">
         <button className="btn btn-sm">Next</button>
       </Link>
     

@@ -16,8 +16,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="">
-      <button class="btn btn-primary">One</button>
-
+        <a href="app/home">Enter</a>
         <p>Hey</p>
       </main>
     </>

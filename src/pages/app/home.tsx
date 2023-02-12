@@ -14,10 +14,11 @@ const login: NextPage = () => {
       <div className="card w-96 bg-base-100 shadow-xl">
   <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div className="card-body">
-    <h2 className="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <h2 className="card-title">Eric</h2>
+    <p> University: JHU</p>
+    <p> Grade: 11</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
+      <button className="btn btn-primary">Match!</button>
     </div>
   </div>
 </div>
@@ -26,21 +27,7 @@ const login: NextPage = () => {
     <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
   </div>
 </div>
-<div className="avatar">
-  <div className="w-20 rounded">
-    <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" alt="Tailwind-CSS-Avatar-component" />
-  </div>
-</div>
-<div className="avatar">
-  <div className="w-16 rounded">
-    <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" alt="Tailwind-CSS-Avatar-component" />
-  </div>
-</div>
-<div className="avatar">
-  <div className="w-8 rounded">
-    <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" alt="Tailwind-CSS-Avatar-component" />
-  </div>
-</div>
+
       </main>
     </>
   );

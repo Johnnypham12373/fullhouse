@@ -12,18 +12,16 @@ const login: NextPage = () => {
     <>
       <main className="">
       
-      <textarea className="textarea w-96 h-32" placeholder="Interests"></textarea>
+      <textarea className="textarea textarea_bordered w-96 h-32" placeholder="Interests"></textarea>
       <div></div>
-      <textarea className="textarea w-96 h-32" placeholder="Hobbies"></textarea>
+      <textarea className="textarea textarea_bordered w-96 h-32" placeholder="Hobbies"></textarea>
       <div></div>
-      <textarea className="textarea w-96 h-32" placeholder="Background"></textarea>
-      <select className="select w-full max-w-xs">
-    <option disabled selected>Prefered # of Roommates</option>
-    <option>1</option>
-    <option>2</option>
-    <option>3</option>
-    </select>
-
+      <textarea className="textarea textarea_bordered w-96 h-32" placeholder="Background"></textarea>
+      <div></div>
+      <textarea placeholder="Anything about me!" className="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
+      <div></div>
+      
+      <button className="btn btn-primary">Home</button>
       </main>
     </>
   );

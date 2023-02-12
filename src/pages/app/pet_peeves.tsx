@@ -12,11 +12,11 @@ const login: NextPage = () => {
     <>
       <main className="">
       
-      <textarea className="textarea textarea_bordered w-96 h-32" placeholder="Interests"></textarea>
+      <textarea className="textarea textarea_bordered w-96 h-32" placeholder="My first pet peeve"></textarea>
       <div></div>
-      <textarea className="textarea textarea_bordered w-96 h-32" placeholder="Hobbies"></textarea>
+      <textarea className="textarea textarea_bordered w-96 h-32" placeholder="My second pet peeve"></textarea>
       <div></div>
-      <textarea className="textarea textarea_bordered w-96 h-32" placeholder="Background"></textarea>
+      <textarea className="textarea textarea_bordered w-96 h-32" placeholder="My third pet peeve"></textarea>
       <div></div>
       <textarea placeholder="Anything about me!" className="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
       <div></div>

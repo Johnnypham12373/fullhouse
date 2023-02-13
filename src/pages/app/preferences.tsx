@@ -15,7 +15,7 @@ const login: NextPage = () => {
       <div></div>
       <div className = "text=5xl"> </div>
       <div className="Housing">
-    <label tabIndex={0} className="btn m-1">Click</label>
+    <label tabIndex={0} className="btn m-1">Housing Preference</label>
     <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
     <li><a>AMR 1 (Communal)</a></li>
     <li><a>AMR 2 (Communal)</a></li>

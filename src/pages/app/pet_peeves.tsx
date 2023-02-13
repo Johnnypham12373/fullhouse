@@ -18,7 +18,9 @@ const login: NextPage = () => {
       <div></div>
       <textarea className="textarea textarea_bordered w-96 h-32" placeholder="My third pet peeve"></textarea>
       <div></div>
-      <textarea placeholder="Anything about me!" className="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
+      <textarea className="textarea textarea_bordered w-96 h-32" placeholder="My fourth pet peeve"></textarea>
+      <div></div>
+      <textarea className="textarea textarea_bordered w-96 h-32" placeholder="My fifth pet peeve"></textarea>
       <div></div>
       
       <Link href = "hobbies" className="form-control mt-6">
@@ -27,7 +29,7 @@ const login: NextPage = () => {
         </div>
       </Link>
       <Link href = "home" className="form-control mt-6">
-        <div className='fixed bottom-0'>
+        <div className='fixed bottom-0 right-0'>
             <button className="bottom-0 right-0 btn btn-md">Submit</button>
         </div>
       </Link>

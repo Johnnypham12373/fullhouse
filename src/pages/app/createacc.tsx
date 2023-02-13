@@ -44,7 +44,7 @@ const createacc: NextPage = () => {
         </div>
 
         <div className="bg-100 pl-10 pr-20">
-        <Link href = "home" className="form-control mt-6 flex flex-col">
+        <Link href = "preferences" className="form-control mt-6 flex flex-col">
         <button className="btn btn-outline btn-sm">Create Account</button>
        </Link>
        </div>

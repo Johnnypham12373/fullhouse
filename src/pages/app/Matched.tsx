@@ -16,7 +16,7 @@ const login: NextPage = () => {
       <div className="card h-200 w-96 bg-base-100 shadow-xl">
   <figure><img src="http://clipart-library.com/data_images/255904.png" alt= "Party" /></figure>
   <div className="card-body">
-    <div className = "You have Matched!"></div>
+    <p> You have Matched! </p>
     <div className="card-actions justify-end">
     <Link href="/app/Contact">
       <button className="btn btn-sm btn-active btn-ghost">Contact</button>

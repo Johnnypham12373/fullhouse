@@ -8,13 +8,13 @@ const createacc: NextPage = () => {
     return (
       <>
        <div>
-        <div class="form-control bg-white-500">
+        <div className="form-control bg-white-500">
         <div className="text-center lg:text-left">
         <p className="py-6"></p>
         <h1 className="text-5xl font-bold">Create Account</h1>
         <p className="py-4"></p>
         </div>
-        <div class="ml-5">
+        <div className="ml-5">
         <label className="label mt-1">
         <span className="label-text">Name</span>
         </label>

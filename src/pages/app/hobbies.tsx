@@ -22,13 +22,13 @@ const login: NextPage = () => {
       <div></div>
       
       <Link href = "preferences" className="form-control mt-6">
-        <div className='fixed bottom-0 w-full'>
+        <div className='fixed bottom-0'>
             <button className="bottom-0 btn btn-md">Back</button>
         </div>
       </Link>
       <Link href = "preferences" className="form-control mt-6">
-        <div className='fixed bottom-0 w-full'>
-            <button className="bottom-0 right-full btn btn-md">Next</button>
+        <div className='fixed bottom-0 right-0'>
+            <button className="bottom-0 right-0 btn btn-md">Next</button>
         </div>
       </Link>
     

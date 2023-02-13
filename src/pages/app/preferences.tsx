@@ -35,8 +35,16 @@ const login: NextPage = () => {
     <option>3</option>
     </select>
     <div></div>
-    <button className="btn">Back</button>
-    <button className="btn">Submit</button>
+    <Link href = "home" className="form-control mt-6">
+        <div className='fixed bottom-0'>
+            <button className="bottom-0 btn btn-md">Back</button>
+        </div>
+      </Link>
+      <Link href = "hobbies" className="form-control mt-6 ">
+        <div className='fixed bottom-0 right-0'>
+            <button className="bottom-0 right-0 btn btn-md">Next</button>
+        </div>
+      </Link>
       </main>
     </>
   );
